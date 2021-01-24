@@ -1,13 +1,10 @@
-version: 2.1
+public class myFile{
+    public static void main(String[] args){
 
-orbs:
-  android: circleci/android@0.2.1
+System.out.print("Andy");
 
-jobs:
-  build:
-    executor: android/android
 
-    steps:
-      - checkout
-      - run:
-          command: ./gradlew build
+
+    }
+ 
+}
